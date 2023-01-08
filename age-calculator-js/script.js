@@ -14,6 +14,7 @@ submit.addEventListener('click', () => {
         let inDays = (Math.floor(difference / (1000 * 3600 * 24)));
         let inYears = (Math.floor(inDays / 365.242199));
         result.style.display = 'block';
+        
         result.innerHTML = `You are <span>${inYears}</span> YEARS and <span>${inDays}</span> DAYS old`;
     }
 
